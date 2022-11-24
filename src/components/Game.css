@@ -1,0 +1,38 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: hsl(187, 87%, 57%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.start__btn {
+  width: 200px;
+  height: 35px;
+  background: rgb(3, 64, 114);
+  font-size: large;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.start__btn:hover {
+  background: #fff;
+  color: #222222;
+  transition: 0.3s all ease;
+}
+
+.game__over {
+  margin-bottom: 50px;
+  color: red;
+}
+.game__winner {
+  color: crimson;
+}
+.game__winner:hover {
+  color: gold;
+  transition: 0.3s ease;
+  cursor: pointer;
+  caret-color: transparent;
+}

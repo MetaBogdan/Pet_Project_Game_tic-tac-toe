@@ -1,0 +1,20 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 1 solid #222222;
+  cursor: pointer;
+  outline: none;
+  font-size: 60px;
+  caret-color: transparent;
+}
+.square:hover {
+  background: #f2ffa1;
+  transition: 0.3s all ease;
+  caret-color: transparent;
+}
+
+.square :focus {
+  cursor: pointer;
+  caret-color: transparent;
+}
